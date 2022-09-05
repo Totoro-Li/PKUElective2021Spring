@@ -5,7 +5,7 @@ import json
 import requests
 from PIL import Image
 
-from .captcha import Captcha
+from .captcha_util import Captcha
 from ..config import BaseConfig
 from .._internal import get_abs_path
 from ..exceptions import OperationFailedError, OperationTimeoutError, RecognizerError
