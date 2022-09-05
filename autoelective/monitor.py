@@ -20,6 +20,7 @@ monitor = Flask(__name__, static_folder=None) # disable static rule
 
 monitor.config["JSON_AS_ASCII"] = False
 monitor.config["JSON_SORT_KEYS"] = False
+monitor.config['JSONIFY_MIMETYPE'] = "application/json;charset=utf-8"
 
 _werkzeug_internal._logger = cout  # custom _logger for werkzeug
 
