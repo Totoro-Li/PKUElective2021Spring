@@ -3,5 +3,5 @@
 # filename: __init__.py
 # modified: 2019-09-08
 
-from .captcha import Captcha
+from .captcha_util import Captcha
 from .online import TTShituRecognizer
